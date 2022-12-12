@@ -2,6 +2,7 @@ package io.zipcoder.itemparser;
 
 import io.zipcoder.utils.Item;
 import io.zipcoder.ItemParser;
+import io.zipcoder.utils.ItemParseException;
 import org.junit.Test;
 
 import java.util.Arrays;

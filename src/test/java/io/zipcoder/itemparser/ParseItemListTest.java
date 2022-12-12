@@ -2,6 +2,7 @@ package io.zipcoder.itemparser;
 
 import io.zipcoder.utils.Item;
 import io.zipcoder.ItemParser;
+import io.zipcoder.utils.ItemParseException;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -12,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class ParseItemListTest {
 
     @Test
-    public void test1() {
+    public void test1(){
         // given
         ItemParser itemParser = new ItemParser();
         String valueToParse = new StringBuilder()

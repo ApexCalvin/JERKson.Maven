@@ -7,6 +7,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MatchGroupTest {
+
+    @Test
+    public void calvinsTest() {
+
+    }
+
+
     @Test
     public void toStringTest() {
         String text = "The Quick Brown Fox";
@@ -23,6 +30,7 @@ public class MatchGroupTest {
 
         // when
         String actual = matchGroup.toString();
+        System.out.println(actual);
 
         Assert.assertEquals(expected, actual);
     }

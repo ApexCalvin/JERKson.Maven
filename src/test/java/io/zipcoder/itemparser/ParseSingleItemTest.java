@@ -8,6 +8,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class ParseSingleItemTest {
+
     @Test
     public void test1() throws ItemParseException {
         // given
